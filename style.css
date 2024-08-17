@@ -1,0 +1,93 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222;
+    color: #eee;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.between {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #ddd;
+}
+
+.again {
+    background-color: #ff595e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.number {
+    background-color: #eee;
+    color: #333;
+    font-size: 2rem;
+    width: 50px;
+    margin: 20px auto;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    width: 45%;
+}
+
+.guess {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.check {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.message {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.label-score, .label-highscore {
+    font-size: 1rem;
+}
+
+.score, .highscore {
+    font-weight: bold;
+    color: #ffdd57;
+}
